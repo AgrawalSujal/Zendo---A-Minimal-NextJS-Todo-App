@@ -12,7 +12,7 @@ const HomePage = () => {
   const [input, setInput] = useState("");
   const [todo, setTodo] = useState<todo[]>([]);
 
-  const handleAddItem = (e) => {
+  const handleAddItem = (e: React.SyntheticEvent) => {
     e.preventDefault();
     setTodo([...todo, { id: Date.now(), text: input, completed: false }]);
     setInput("");
