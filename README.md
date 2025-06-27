@@ -40,7 +40,7 @@ It helps you track your daily tasks with a clean UI and stores them using **loca
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/zendo.git
+git clone https://github.com/AgrawalSujal/Zendo---A-Minimal-NextJS-Todo-App.git
 cd zendo
 
 # Install dependencies
