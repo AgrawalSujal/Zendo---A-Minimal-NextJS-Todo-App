@@ -9,11 +9,11 @@ It helps you track your daily tasks with a clean UI and stores them using **loca
 
 ### 🖥️ Home Page
 
-![ZenDo Homepage](/home.png)
+![ZenDo Homepage](public/home.png)
 
 ### ✅ Tasks Added
 
-![ZenDo Tasks](/todo-list.png)
+![ZenDo Tasks](public/todo-list.png)
 
 ---
 
