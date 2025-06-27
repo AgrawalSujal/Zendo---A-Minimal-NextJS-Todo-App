@@ -23,11 +23,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <main className="flex flex-col min-h-screen bg-gradient-to-br from-blue-100 to-white">
+          {/* Header */}
+
+          {/* Main content */}
+          <div className="flex-grow flex justify-center items-start pt-10 px-4">
+            <div className="w-full max-w-3xl">{children}</div>
+          </div>
+
+          {/* Footer */}
+          <footer className="w-full mt-auto py-4 bg-white border-t">
+            <div className="text-center text-sm text-gray-500">
+              Made with 💗 by Sujal
+            </div>
+          </footer>
+        </main>
       </body>
     </html>
   );
